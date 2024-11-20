@@ -54,13 +54,11 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'weather_project.wsgi.application'
+WSGI_APPLICATION = 'weather_project.settings'
 
-# Database configuration using dj_database_url
-DATABASE_URL = config('DATABASE_URL')
-SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', default=False, cast=bool)
-
+DATABASES = {
+    'default': dj_database_url.config(default=config('DATABASE_URL'))
+}
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {
