@@ -12,7 +12,7 @@ $(document).ready(function () {
                 },
                 dataType: "json",
                 headers: {
-                    "User-Agent": "weather-app", // Important for Nominatim
+                    "User-Agent": "weather-app", 
                 },
                 success: function (data) {
                     const suggestionBox = $('#suggestions');
@@ -41,8 +41,6 @@ $(document).ready(function () {
             $('#suggestions').hide();
         }
     });
-
-    // Hide suggestions on outside click
     $(document).on("click", function (e) {
         if (!$(e.target).closest("#suggestions, #city").length) {
             $("#suggestions").hide();
