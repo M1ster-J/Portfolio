@@ -1,0 +1,22 @@
+{
+  "name": "weather_project",
+  "version": "1.0.0",
+  "description": "Portfolio 1 - Weather API APP",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M1ster-J/Portfolio.git#main"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "MisterJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M1ster-J/Portfolio/issues"
+  },
+  "homepage": "https://github.com/M1ster-J/Portfolio/tree/main#readme"
+}

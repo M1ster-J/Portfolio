@@ -1,0 +1,14 @@
+[33m5e3ea9b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Merge branch 'main' of https://github.com/M1ster-J/Portfolio
+[33m4df9e9b[m Getting ready for take off
+[33m52d0fa2[m Update requirements.txt
+[33m42a5260[m Prepare for deployment on Render
+[33mc612f41[m Prepare for deployment on Render
+[33meadee9e[m Added package.json and fixed build configuration
+[33m107d9da[m Update settings.py
+[33ma47f1da[m Add gunicorn to requirements.txt
+[33m7d9ca47[m Move requirements.txt to root directory
+[33m6812b6a[m Add requirements.txt file
+[33m23b5af0[m Initial commit
+[33m5942601[m Cleaned up comments
+[33m9ce7607[m first commit
+[33m10dd58c[m Initial commit with .env and .gitignore to hide API keys
