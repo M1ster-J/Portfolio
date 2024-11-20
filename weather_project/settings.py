@@ -11,7 +11,8 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 WSGI_APPLICATION = 'weather_project.wsgi.application'
 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['portfolio-weather-project.onrender.com', 'localhost', '127.0.0.1']
+
 
 SECRET_KEY = config('SECRET_KEY')
 
