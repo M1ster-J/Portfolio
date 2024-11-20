@@ -13,3 +13,4 @@ source==1.2.0
 sqlparse==0.5.2
 tzdata==2024.2
 urllib3==2.2.3
+psycopg2==2.9.6
