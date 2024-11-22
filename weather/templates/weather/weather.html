@@ -51,12 +51,16 @@
                     <div><strong>{{ forecast.temp }}°F</strong></div>
                 </div>
                 {% endfor %}
+                <input type="text" id="locationSearch" placeholder="Enter location">
+<button onclick="searchLocation()">Search</button>
+<div id="map" style="height: 500px;"></div>
+<script src={%static "js/radar.js" %} />
             </div>
         </div>
         {% endif %}
     </div>
     <footer class="text-center mt-5">
-        <p>Jonathan Carnline | Portfolio | 2024</p>
+        <p>Mister J Designs | Portfolio | 2024</p>
     </footer>
 </body>
 </html>
